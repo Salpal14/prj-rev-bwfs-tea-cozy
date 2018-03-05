@@ -1,0 +1,138 @@
+/*General*/
+body {
+  background-color: black;
+  text-align: center;
+  color: seashell;
+  font-size: 22px;
+  opacity: 0.9;
+  font-family: Helvetica;
+  margin: 0 auto;
+  width: 100%;
+}
+.hide {
+  opacity: 0;
+}
+.anchor {
+  height: 70px;
+  margin-top: -70px;
+  visibility: hidden;
+}
+
+
+/*Header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+}
+img {
+  height: 50px;
+  margin: 0 10px;
+}
+nav a {
+  padding: 0 10px;
+  color: seashell;
+}
+
+
+/*Main content*/
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+
+
+/*Mission*/
+.mission {
+  background-image: url("../../resources/images/background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.mission-content {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100px;
+}
+.mission h2,h4 {
+  margin: 0;
+}
+
+
+
+/*Menu*/
+.menu {
+  width: 1000px;
+  margin-bottom: 70px;
+}
+.items123,.items45{
+  display: flex;
+  justify-content: center;
+}
+.item {
+  margin: 15px 7px 10px 7px;
+}
+.item img {
+  height: 200px;
+  width: 300px;
+}
+.item h4 {
+  margin-top: 10px;
+}
+
+
+/*Locations*/
+.locations {
+  width: 1200px;
+  height: 570px;
+  background-image: url("../../resources/images/locations.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cities {
+  display: flex;
+  justify-content: center;
+}
+.city {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.locations h2 {
+  margin-bottom: 0;
+}
+.city h3 {
+  margin: 20px auto;
+}
+
+
+/*Contact*/
+.contact {
+  height: 200px;
+}
+
+
+/*Footer*/
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
